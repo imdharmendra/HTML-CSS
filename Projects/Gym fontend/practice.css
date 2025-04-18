@@ -1,0 +1,113 @@
+body{
+background: url(Gym.jpg);
+background-size: cover;
+
+
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    color: white;
+    /* padding: 20px 15px; */
+
+    font-size: 35px;
+    
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    margin-top: 30px;
+    text-align: center;
+    
+
+}
+.right{
+    position: absolute;
+    right: 43px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.navbar li a:hover{
+    color:rgb(165, 165, 165)
+}
+.btn{
+    margin: 0px, 10px;
+    border-color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    
+}
+.btn :hover{
+    color: rgb(130, 129, 129)
+}
+.container{
+    border: 2px solid white;
+    margin: 110px 80px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 25px;
+    
+    
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 23px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+    color: red;
+}
+.container button{
+    display: block;
+    width: 20%;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(130, 129, 129);
+}
+.foot-panel{
+    background-color:black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+margin-top: 20px;
+}
+ul p{
+    font-weight: 700;
+}
+.foot-panel ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.warning{
+    background: rgb(65, 65, 71);
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}

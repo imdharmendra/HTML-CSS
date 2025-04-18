@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* logo */
+#logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}
+#logo{
+    margin: 10px 34px;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+/* navigation bart list */
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.25rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(food.jpg) no-repeat center center/cover;
+    height: 630px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+
+}
+.h-primary{
+    font-size: 3.25rem;
+    padding-top: 15px;
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(255, 168, 5);
+    margin: 10px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+#services{
+    margin: 15px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 35px;
+    margin: 0px 10px;
+    border-radius: 30px;
+    background: rgb(237, 237, 237);
+
+}
+#services img{
+    height: 250px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+#contact{
+    position: relative;
+
+}
+.foot-panel{
+    background-color:black;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+margin-top: 20px;
+}
+ul p{
+    font-weight: 700;
+}
+.foot-panel ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.warning{
+    background: rgb(65, 65, 71);
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
